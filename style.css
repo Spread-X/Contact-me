@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#question1
+{
+    font-size: 27px;
+    font-weight: 1000;
+}
+#email{
+    margin-left: 16px;
+}
+#message{
+    margin-left: 16px;
+}
+#question1{
+    margin-left: 16px;
+    margin-top: 15px;
+}
+#links{
+    background-color: white;
+    margin: 15px;
+    margin-right: 800px;
+    margin-left: 35px;
+    width: 38%;
+}
+#input{
+    margin: 20px;
+    background-color: white;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 17px;
+    margin-top: 15px;
+    width: 95%;
+}

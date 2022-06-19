@@ -1,4 +1,5 @@
 /* Default styles for the browser */
+/* Default styles for the browser */
 *{
     margin: 0;
     padding: 0;
@@ -50,6 +51,90 @@ header nav li{
     float: left;
     margin-right: 30px;
 }
+header nav li:hover{
+    
+}
+header nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+header nav #about_click:hover {
+    background: rgb(145,55,208);
+background: -moz-linear-gradient(90deg, rgba(145,55,208,1) 42%, rgba(21,59,181,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(145,55,208,1) 42%, rgba(21,59,181,1) 100%);
+background: linear-gradient(90deg, rgba(145,55,208,1) 42%, rgba(21,59,181,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9137d0",endColorstr="#153bb5",GradientType=1);
+
+    -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header nav #work_click:hover {
+    background: rgb(145,55,208);
+background: -moz-linear-gradient(90deg, rgba(145,55,208,1) 42%, rgba(21,59,181,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(145,55,208,1) 42%, rgba(21,59,181,1) 100%);
+background: linear-gradient(90deg, rgba(145,55,208,1) 42%, rgba(21,59,181,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9137d0",endColorstr="#153bb5",GradientType=1);
+
+    -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header nav #news_click:hover {
+    background: rgb(145,55,208);
+background: -moz-linear-gradient(90deg, rgba(145,55,208,1) 42%, rgba(21,59,181,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(145,55,208,1) 42%, rgba(21,59,181,1) 100%);
+background: linear-gradient(90deg, rgba(145,55,208,1) 42%, rgba(21,59,181,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9137d0",endColorstr="#153bb5",GradientType=1);
+
+    -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header nav #game_click:hover {
+    background: rgb(145,55,208);
+background: -moz-linear-gradient(90deg, rgba(145,55,208,1) 42%, rgba(21,59,181,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(145,55,208,1) 42%, rgba(21,59,181,1) 100%);
+background: linear-gradient(90deg, rgba(145,55,208,1) 42%, rgba(21,59,181,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9137d0",endColorstr="#153bb5",GradientType=1);
+
+    -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+header nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: rgb(198,128,247);
+
+  position: absolute;
+  top: 60px;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+header nav #game_click:hover::before {
+  width: 66px;
+}
+header nav #about_click:hover::before {
+  width: 44px;
+}
+header nav #work_click:hover::before {
+  width: 40px;
+}
+header nav #news_click:hover::before {
+  width: 40px;
+}
 
 header nav li:last-of-type{
     margin-right: 0;
@@ -60,7 +145,7 @@ header nav span {
     vertical-align: middle;
 }
 
-header nav a{
+nav a{
     color: #101010;
 }
 
@@ -73,4 +158,7 @@ header nav .button{
 
 header nav .button:hover{
     filter: brightness(1.05);
+  background-color: #148550;
+  transition: ease-in 250ms;
+  transition: ease-out 250ms;
 }

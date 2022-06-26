@@ -37,3 +37,16 @@
     margin-top: 15px;
     width: 95%;
 }
+@media all and (max-width: 2569px) and (min-width: 720px), (min-width: 720px){
+  body
+}
+body{
+  @media screen animation: delay;  (max-width: 1200px) and (min-width: 768px),{
+    
+  }
+}
+$desktop: 1200px; // col-cl
+$laptop: 1024px; // col-lg
+$tablet: 768px; // md
+$phone: 480px; // sm
+
